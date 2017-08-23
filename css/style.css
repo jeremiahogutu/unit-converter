@@ -8,6 +8,10 @@ html {
     font-size: 14px;
 }
 
+.millistyle{
+    border-color: #cc33ff;
+    color: #cc33ff;
+}
 @include media-breakpoint-up(sm) {
     html {
         font-size: 16px;
