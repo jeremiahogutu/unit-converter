@@ -12,7 +12,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 ml-auto mr-auto">
                 <h1 class="display-4 text-center mb-3">Unit Converter</h1>
                 <form>
                     <div class="form-group">
@@ -20,6 +20,12 @@
                     </div>
                 </form>
                 <div id="output">
+                    <div class="card text-white bg-warning mb-2">
+                        <div class="card-block">
+                            <h4>Pounds:</h4>
+                            <div id="poundsOutput"></div>
+                        </div>
+                    </div>
                     <div class="card text-white bg-primary mb-2">
                         <div class="card-block">
                             <h4>Grams:</h4>
@@ -42,6 +48,6 @@
             </div>
         </div>
     </div>
-
+    <script src="js/main.js"></script>
 </body>
 </html>
